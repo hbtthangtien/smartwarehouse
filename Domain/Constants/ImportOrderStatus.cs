@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Constants
+{
+    public static class ImportOrderStatus
+    {
+        public const string Pending = "PENDING";
+        public const string Completed = "COMPLETED";
+        public const string Canceled = "CANCELED";
+    }
+}
